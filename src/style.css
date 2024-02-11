@@ -1,0 +1,12 @@
+#star-wars-logo, #person-image, #starship-image, #planet-image {
+    height: 300px;
+    width: 300px;
+}
+
+#person-image, #starship-image {
+    cursor: pointer;
+}
+
+#previous, #next {
+    visibility: hidden;
+}
