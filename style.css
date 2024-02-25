@@ -1,0 +1,12 @@
+#star-wars-logo, #people, #starships, #planets {
+    height: 300px;
+    width: 300px;
+}
+
+#people, #starships, #planets, #ascArrow, #descArrow {
+    cursor: pointer;
+}
+
+#spinner, #user-input, #search, #go-back, #previous, #next {
+    visibility: hidden;
+}
