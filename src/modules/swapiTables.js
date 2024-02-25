@@ -25,6 +25,7 @@ export class SwapiTable {
                               </thead>`;
     }
 
+    // Universal method for any number of object property values 
     createTable (header, objectsArray, element) {      
         let tableRows = objectsArray
                         .map(object => Object.values(object)) // Get all object values for every API created object 
